@@ -1,0 +1,43 @@
+body {
+  font: normal 11px/1.7em "Lucida Grande", Lucida, Verdana, sans-serif;
+}
+
+#page {
+  width: 500px;
+}
+
+#navigation {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#navigation li {
+  display: inline;
+
+}
+
+#flash {
+  list-style: none;
+  padding: 0px;
+}
+
+/* Forms */
+
+fieldset {
+  border: 0px;
+	margin: 12px 0px 8px 0px;
+	padding: 0px;
+}
+
+fieldset.buttons > * {
+  vertical-align: middle;
+}
+
+label {
+  display: block;
+}
+
+label.check_box {
+	display: inline;
+}
